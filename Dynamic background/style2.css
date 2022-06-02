@@ -1,0 +1,189 @@
+body {
+  background: #000;
+}
+
+svg {
+  height: 140%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+
+.title-block {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+
+.title-block .title {
+  position: relative;
+  left: -50%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato';
+  letter-spacing: 5px;
+}
+
+#top .st48,
+#top .st52,
+#top .st50 {
+  -webkit-animation: drift-right-up 80s alternate;
+          animation: drift-right-up 80s alternate;
+}
+
+#top .st33,
+#top .st51 {
+  -webkit-animation: drift-right-up 75s alternate;
+          animation: drift-right-up 75s alternate;
+}
+
+#top .st49,
+#top .st42 {
+  -webkit-animation: drift-right-up 65s alternate;
+          animation: drift-right-up 65s alternate;
+}
+
+#bottom .st11,
+#bottom .st56 {
+  -webkit-animation: drift-down 70s alternate;
+          animation: drift-down 70s alternate;
+}
+
+#bottom .st53,
+#bottom .st54 {
+  -webkit-animation: drift-right 195s alternate;
+          animation: drift-right 195s alternate;
+}
+
+#bottom .st55,
+#bottom .st36,
+#bottom .st33 {
+  -webkit-animation: drift-down 115s alternate;
+          animation: drift-down 115s alternate;
+}
+
+#bottom .st51 {
+  -webkit-animation: drift-down-right 105s alternate;
+          animation: drift-down-right 105s alternate;
+}
+
+#nearright .st40,
+#nearright .st43,
+#nearright .st33 {
+  -webkit-animation: drift-right 115s;
+          animation: drift-right 115s;
+}
+
+#nearright .st41,
+#nearright .st44 {
+  -webkit-animation: drift-right-up 105s;
+          animation: drift-right-up 105s;
+}
+
+#nearright .st42,
+#nearright .st45,
+#nearright .st46,
+#nearright .st55,
+#nearright .st47 {
+  -webkit-animation: drift-right 135s;
+          animation: drift-right 135s;
+}
+
+#farright .st54,
+#farright .st58,
+#farright .st59 {
+  -webkit-animation: drift-right 55s;
+          animation: drift-right 55s;
+}
+
+#farright .st57,
+#farright .st51 {
+  -webkit-animation: drift-right-up 40s;
+          animation: drift-right-up 40s;
+}
+
+@-webkit-keyframes drift-right {
+  100% {
+    -webkit-transform: translate(2000px, -20px);
+            transform: translate(2000px, -20px);
+  }
+}
+
+@keyframes drift-right {
+  100% {
+    -webkit-transform: translate(2000px, -20px);
+            transform: translate(2000px, -20px);
+  }
+}
+
+@-webkit-keyframes drift-right-up {
+  100% {
+    -webkit-transform: translate(2000px, -250px);
+            transform: translate(2000px, -250px);
+  }
+}
+
+@keyframes drift-right-up {
+  100% {
+    -webkit-transform: translate(2000px, -250px);
+            transform: translate(2000px, -250px);
+  }
+}
+
+@-webkit-keyframes drift-up {
+  100% {
+    -webkit-transform: translate(10px, -1450px);
+            transform: translate(10px, -1450px);
+  }
+}
+
+@keyframes drift-up {
+  100% {
+    -webkit-transform: translate(10px, -1450px);
+            transform: translate(10px, -1450px);
+  }
+}
+
+@-webkit-keyframes drift-up-right {
+  100% {
+    -webkit-transform: translate(175px, -1550px);
+            transform: translate(175px, -1550px);
+  }
+}
+
+@keyframes drift-up-right {
+  100% {
+    -webkit-transform: translate(175px, -1550px);
+            transform: translate(175px, -1550px);
+  }
+}
+
+@-webkit-keyframes drift-down {
+  100% {
+    -webkit-transform: translate(2000px, 1220px);
+            transform: translate(2000px, 1220px);
+  }
+}
+
+@keyframes drift-down {
+  100% {
+    -webkit-transform: translate(2000px, 1220px);
+            transform: translate(2000px, 1220px);
+  }
+}
+
+@-webkit-keyframes drift-down-right {
+  100% {
+    -webkit-transform: translate(1450px, 320px);
+            transform: translate(1450px, 320px);
+  }
+}
+
+@keyframes drift-down-right {
+  100% {
+    -webkit-transform: translate(1450px, 320px);
+            transform: translate(1450px, 320px);
+  }
+}
+/*# sourceMappingURL=style2.css.map */
